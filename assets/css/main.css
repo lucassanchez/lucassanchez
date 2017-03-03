@@ -113,6 +113,18 @@ a {
     font-size: 16px;
 }
 
+.thumb {
+    display: block;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+
+.thumb img {
+    max-width: 100px;
+}
+
 .menu ul {
     padding: 0px;
     margin: 0px;
@@ -123,6 +135,13 @@ a {
     display: inline-block;
     border-right: 1px solid rgba(0,0,0,0.05);
     padding: 10px 20px 5px;
+}
+
+.menu span {
+    margin-top: 5px;
+    font-size: 12px;
+    text-transform: italic;
+    display: block;
 }
 
 .menu li:last-child {
