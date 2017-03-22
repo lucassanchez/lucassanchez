@@ -111,6 +111,7 @@ a {
 
 .menu {
     font-size: 16px;
+    overflow: hidden: ;
 }
 
 .thumb {
