@@ -1,0 +1,17 @@
+{
+  "name": "lucassanchez.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucassanchez/lucassanchez.github.io.git"
+  },
+  "author": "Lucas Inocente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucassanchez/lucassanchez.github.io/issues"
+  },
+  "homepage": "https://github.com/lucassanchez/lucassanchez.github.io#readme"
+}
