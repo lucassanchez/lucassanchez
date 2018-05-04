@@ -10,6 +10,40 @@
 <link rel="stylesheet" href="assets/css/main.css?420">
 </head>
 <body>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <h1 class="navbar-item">
+                Lucas Inocente
+            </h1>
+            <div class="navbar-burger burger" data-target="navbar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navbar">
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="button is-primary" href="https://br.linkedin.com/in/lucassanchez">
+                                <span>Linkedin</span>
+                            </a>
+                            <a class="button is-primary" href="https://medium.com/@lucasinocente">
+                                <span>Medium</span>
+                            </a>
+                            <a class="button is-primary" href="https://twitter.com/lucassanchez">
+                                <span>Twitter</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
     <header>
         <div class="avatar">
             <img src="https://avatars0.githubusercontent.com/u/2191020?s=400&u=eb574ac17b68b392024376a4137a89afd8422e5b&v=4" alt="Lucas Sanchez">
@@ -207,6 +241,33 @@
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // Get all "navbar-burger" elements
+        var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(function ($el) {
+            $el.addEventListener('click', function () {
+
+            // Get the target from the "data-target" attribute
+            var target = $el.dataset.target;
+            var $target = document.getElementById(target);
+
+            // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+            $el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+            });
+        });
+        }
+
+    });
 </script>
 </body>
 </html>
