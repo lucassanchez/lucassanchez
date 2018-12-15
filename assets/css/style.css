@@ -1,0 +1,16 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  font-family: 'B612 Mono', monospace;
+}
+
+.container-page-content {
+  max-width: 700px;
+  font-size: 20px;
+}
+
+.container-page-content p {
+  margin-bottom: 20px;
+}
