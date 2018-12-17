@@ -1,8 +1,10 @@
-body {
+body * {
   font-family: 'Open Sans', sans-serif;
 }
 
-.title {
+.title,
+.title a,
+h1.title  {
   font-family: 'B612 Mono', monospace;
 }
 
