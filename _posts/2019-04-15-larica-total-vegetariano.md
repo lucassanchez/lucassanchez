@@ -2,6 +2,7 @@
 layout: post
 title:  "Alguns episódios do Larica Total com receitas vegetarianas"
 date:   2019-04-16 18:00:00 -0200
+subtitle: "Humor culinário ágil?"
 categories: ['Vegetarianismo']
 ---
 
