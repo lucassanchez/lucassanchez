@@ -22,6 +22,10 @@
       </div>
     </section>
 
+    {% if page.hero-image %}
+      <img class="full-image" src="{{ page.hero-image }}" alt="{{ page.title }}">
+    {% endif %}
+
     <section class="section">
       <div class="container container-page-content">
           <div class="content is-medium">
