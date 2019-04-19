@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Meetup NodeJs Porto Alegre @ Zenvia"
+title:  "Meetup Node.js Porto Alegre @ Zenvia"
 date:   2018-03-22 18:00:00 -0200
 subtitle: "Node.js + influx + grafana"
-categories: ['Talk']
+categories: ['Talks']
 ---
 
 Hoje tive a oportunidade de falar um pouco no meetup de Node.js que rolou aqui na Zenvia. Foi muito massa!
