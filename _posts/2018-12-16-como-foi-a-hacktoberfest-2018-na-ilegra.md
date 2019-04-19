@@ -2,7 +2,7 @@
 layout: post
 title:  "[WIP] Como foi a Hacktoberfest 2018 na ilegra"
 date:   2018-12-16 18:00:00 -0200
-categories: ['Eventos', 'Open Source']
+categories: ['Hacktoberfest']
 subtitle: "Meu primeiro fork na vida real"
 ---
 

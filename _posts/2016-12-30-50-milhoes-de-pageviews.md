@@ -1,17 +1,15 @@
 ---
 layout: post
 title:  "5 coisas que 50 milhões de pageviews me ensinaram"
-date:   2016-04-19 18:00:00 -0200
+date:   2016-12-30 18:00:00 -0200
 categories: ['Empreendedorismo']
 hero-image: "/assets/imgs/1_HUpwpmMH1nyuK4hj76NqkA.png"
 subtitle: "Ser empreendedor não é fácil, não existe meritocracia e altos e baixos acontecem todos os dias."
 ---
 
-Originalmente postado em: [https://medium.com/@lucasinocente/5-coisas-que-50-milhões-de-pageviews-me-ensinaram-dda4cffa2f14](https://medium.com/@lucasinocente/5-coisas-que-50-milh%C3%B5es-de-pageviews-me-ensinaram-dda4cffa2f14)
-
 Desde ouvir a proposta da [Fight Analytics](http://fightanalytics.cc) na mesa de um bar até esse final de ano de 2016 muita coisa aconteceu. Tentei resumir um pouco do que aprendi nessa lista. Espero que seja útil pra quem esteja lendo e que eu não cometa os mesmos erros novamente.
 
-## *1) Se não tá assinado, não tá assinado*
+## 1) Se não tá assinado, não tá assinado
 
 Algumas pessoas mais próximas sabem da novela. Nós chegamos bem perto de fechar um investimento para empresa. Mas assim, bem perto mesmo! Faltava só assinar! Tínhamos um plano brilhante, simples e certeiro para lançar um novo produto no mercado, mas no meio disso um sócio quis sair da empresa e atrasou a negociação. Fomos dos milhões de valuation ao zero. **Foque em finalizar negociações.**
 
@@ -30,6 +28,15 @@ Esquecer reuniões, puxar o cabo errado e sobrescrever arquivo antigo no servido
 ## 5) Planejar é legal, mas executar é melhor
 
 Chega uma hora que ninguém mais aguenta ouvir tu falar do quão legal o seu produto vai ser, do quão impressionante serão as cifras lá no final da planilha de planejamento e o quão milionário será o contrato com o investidor. **A única planilha que realmente importa é a do mês atual.**
-> # Don’t worry about failure, you only fave to be right once. — Drew Houston, Dropbox.
+
+---
+
+**"Don’t worry about failure, you only fave to be right once. — Drew Houston, Dropbox."**
+
+---
 
 Em 2017 vou compartilhar mais coisas que aprendi e que continuarei aprendendo. Caso queira acompanhar mais da minha jornada empreendedora, clica aí no ❤ e me segue. Que neste ano todos consigamos avançar na nossa caminhada.
+
+---
+
+Originalmente postado em: [https://medium.com/@lucasinocente/5-coisas-que-50-milhões-de-pageviews-me-ensinaram-dda4cffa2f14](https://medium.com/@lucasinocente/5-coisas-que-50-milh%C3%B5es-de-pageviews-me-ensinaram-dda4cffa2f14)
