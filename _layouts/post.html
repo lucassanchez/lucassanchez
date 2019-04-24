@@ -27,9 +27,15 @@
     {% endif %}
 
     <section class="section">
+      <div class="likes">
+        <iframe src="https://simple-like.appspot.com/like/?url={{ site.url }}{{ page.url }}" width="78" height="78" frameBorder="0"></iframe>
+      </div>
       <div class="container container-page-content">
           <div class="content is-medium">
             {{ page.content }}
+          </div>
+          <div class="likes">
+            <iframe src="https://simple-like.appspot.com/like/?url={{ site.url }}{{ page.url }}" width="78" height="78" frameBorder="0"></iframe>
           </div>
       </div>
     </section>
