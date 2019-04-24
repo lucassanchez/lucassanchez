@@ -4,9 +4,9 @@ title: Sobre mim
 permalink: /sobre
 ---
 
-Developer Team Lead / Agilista @ <strong> ilegra</strong>
+Desenvolvedor Líder de Equipe / Agilista @ <strong> ilegra</strong>
 
-Founder @ <strong> http://5minutos.de</strong> - w/ Guilherme Guerra
+Fazedor @ <strong> http://5minutos.de</strong> - w/ Guilherme Guerra
 
 Coordenador @ <strong> Meetup Node.js Porto Alegre</strong> - w/ Henrique Schreiner
 
@@ -20,7 +20,7 @@ Ex fundador @ **Fight Analytics**.
 
 Ex fundador @ **Santins**.
 
-Participante do time vencedor do **Startup Weekend Porto Alegre 2014** com a **ComixLab**, marketplace de quadrinhos independentes.
+Fundador e participante do time vencedor do **Startup Weekend Porto Alegre 2014** com a **ComixLab**, marketplace de quadrinhos independentes.
 
 **Mentor** e **facilitador** dos eventos **Hackaton Poa** e **Hackaton Social Smile Flame**.
 
