@@ -9,7 +9,3 @@ categories: ['Liderança']
 Saiba mais em [5minutos.de](http://5minutos.de/)
 
 <div id="embed-5-minutos" data-url="http://5minutos.de/?bons-lideres-precisam-ter-boas-perguntas-e-nao-boas-respostas-por-linocente"></div>
-
-<link rel="stylesheet" href="http://5minutos.de/embed/style.css">
-<script src="http://5minutos.de/embed/script.js"></script>
-
