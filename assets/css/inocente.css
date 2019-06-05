@@ -60,6 +60,8 @@ h1.title  {
 #shapes {
   text-align: center;
   padding: 40px 0;
+  margin: 0 auto;
+  max-width: 725px;
 }
 
 #shapes.shapes-home {
