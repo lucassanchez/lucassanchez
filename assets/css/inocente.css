@@ -56,3 +56,12 @@ h1.title  {
 .likes {
   text-align: center;
 }
+
+#shapes {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#shapes.shapes-home {
+  padding-bottom: 0;
+}

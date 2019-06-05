@@ -9,5 +9,54 @@
   gtag('config', 'UA-138522491-1');
 </script>
 
-<link rel="stylesheet" href="https://5minutos.de/embed/style.css">
-<script src="https://5minutos.de/embed/script.js"></script>
+<script>
+
+const renderShapes = (element) => {
+  const shapes = element
+  const { offsetWidth } = shapes
+  const shapesLenght = Math.round( offsetWidth / 40 ) - 1
+  let illo = []
+  shapes.innerHTML = ''
+
+  for (let i = 0; i < shapesLenght; i++) {
+    shapes.innerHTML += `<canvas class="zdog-canvas-${i}" width="40" height="40"></canvas>`
+  }
+
+  for (let i = 0; i < shapesLenght; i++) {
+
+    illo[i] = new Zdog.Illustration({
+      element: `.zdog-canvas-${i}`,
+      dragRotate: true
+    });
+
+    new Zdog.Hemisphere({
+      addTo: illo[i],
+      diameter: 20,
+      stroke: false,
+      color: '#009e6c',
+      backface: '#EA0',
+    });
+
+    illo[i].updateRenderGraph();
+
+    function animate() {
+      const rotate = `0.00${i}`
+      illo[i].rotate.y += parseFloat(rotate);
+      illo[i].updateRenderGraph();
+      requestAnimationFrame( animate );
+    }
+
+    animate();
+  }
+}
+
+const shapes = document.getElementById('shapes')
+if (shapes) {
+  window.onresize = renderShapes(shapes)
+  renderShapes(shapes);
+}
+
+</script>
+
+<!-- <link rel="stylesheet" href="https://5minutos.de/embed/style.css">
+<script src="https://5minutos.de/embed/script.js"></script> -->

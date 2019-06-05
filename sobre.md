@@ -4,7 +4,7 @@ title: Sobre mim
 permalink: /sobre
 ---
 
-Desenvolvedor Líder de Equipe / Agilista @ <strong> ilegra</strong>
+Desenvolvedor Frond-End / Agilista @ <strong> ilegra</strong>
 
 Fazedor @ <strong> http://5minutos.de</strong> - w/ Guilherme Guerra
 
