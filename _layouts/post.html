@@ -28,16 +28,18 @@
 
     <section class="section">
       <div id="shapes"></div>
-      <div class="likes">
-        <iframe src="https://simple-like.appspot.com/like/?url={{ site.url }}{{ page.url }}" width="78" height="78" frameBorder="0"></iframe>
-      </div>
-      <div class="container container-page-content">
-          <div class="content is-medium">
-            {{ page.content }}
-          </div>
-          <div class="likes">
-            <iframe src="https://simple-like.appspot.com/like/?url={{ site.url }}{{ page.url }}" width="78" height="78" frameBorder="0"></iframe>
-          </div>
+      {% if page.single-like != true %}
+        <div class="likes">
+          <iframe src="https://simple-like.appspot.com/like/?url={{ site.url }}{{ page.url }}" width="78" height="78" frameBorder="0"></iframe>
+        </div>
+      {% endif %}
+      <div class="container container-page-content {{ page.container-class }}">
+        <div class="content is-medium">
+          {{ page.content }}
+        </div>
+        <div class="likes">
+          <iframe src="https://simple-like.appspot.com/like/?url={{ site.url }}{{ page.url }}" width="78" height="78" frameBorder="0"></iframe>
+        </div>
       </div>
     </section>
 
