@@ -67,3 +67,7 @@ h1.title  {
 #shapes.shapes-home {
   padding-bottom: 0;
 }
+
+.container-speaker {
+  max-width: 960px;
+}
