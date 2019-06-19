@@ -4,6 +4,7 @@ title:  "Vídeo divulgaçao Hacktoberfest Porto Alegre 2018"
 date:   2018-09-19 18:00:00 -0200
 subtitle: "Apresentadora: Milene Lacerda"
 categories: ['Hacktoberfest']
+single-like: true
 ---
 
 <div class="video-full-width">
