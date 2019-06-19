@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meus slides da talk Selenium + Javascript = Webdriver.io"
-date:   2019-04-23 18:00:00 -0200
+date:   2019-06-19 12:00:00 -0200
 subtitle: "Automação de testes de navegação"
 categories: ['Talks']
 single-like: true
