@@ -56,4 +56,8 @@ Muito obrigado Maíra por me convidar para esse dia tão marcante e muito obriga
 
 ![](https://lucas-inocente.storage.googleapis.com/1581623921196.photo5055443427180783793.jpg)
 
+![Emerson, Maíra, eu e Vanderlei](https://lucas-inocente.storage.googleapis.com/1581627715097.photo5055443427180783805.jpg)
+
+(Na última foto Emerson, Maíra, eu e Vanderlei)
+
 Aguarde os próximos episódios :)
