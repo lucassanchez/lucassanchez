@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Comida, Não Bombas"
+title:  "Comida, Não Bombas - Ideia"
 date:   2019-12-09 12:00:00 -0200
 subtitle: "Food Not Bombs"
 categories: ['Ideias Open Source']
 single-like: true
 ---
 
-# Comida, Não Bombas
+# Comida, Não Bombas - Ideia
 
 Esse final de semana fui presenteado com um capítulo do livro chamado Receitas Para o Desastre. Entre diversas técnicas de descontrole social ele ensina o ato revolucionário e terrorista que pode ruir com o sistema capitalista, que ajuda diretamente em acabar com a fome no mundo mas que é tão violento e destrói a sociedade e os bons costumes a ponto de que algumas pessoas já foram presas executando-o.
 
@@ -80,3 +80,9 @@ Ações:
 Alguns locais que sei que distribuem alimentos é no Mercado Público de noite (acho que quarta ou quinta), meio dia durante a semana no Tesourinha e domingo no viaduto da João Pessoa.
 
 Atualizo na sequência.
+
+---
+
+## Continuação
+
+[Comida, Não Bombas - Parte 2](https://lucasinocente.com/ideias%20open%20source/2020/02/13/food-not-bombs-porto-alegre-parte-2.html)
