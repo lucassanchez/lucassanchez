@@ -71,3 +71,7 @@ h1.title  {
 .container-speaker {
   max-width: 960px;
 }
+
+.simple-like {
+  margin: 0 auto;
+}
