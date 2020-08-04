@@ -1,9 +1,1 @@
-# Lucas Inocente
-
-## Instalar
-
-`bundle install`
-
-## Iniciar
-
-`bundle exec jekyll serve --watch`
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
