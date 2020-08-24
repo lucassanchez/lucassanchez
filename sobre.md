@@ -4,21 +4,19 @@ title: Sobre mim
 permalink: /sobre
 ---
 
-Desenvolvedor Frond-End / Agilista @ <strong> ilegra</strong>
+Desenvolvedor Frond-End / Agilista @ <strong>APOIA.se</strong>
 
-Fazedor @ <strong> http://5minutos.de</strong> - w/ Guilherme Guerra
+Coordenador @ <strong>Meetup Node.js Porto Alegre</strong>
 
-Coordenador @ <strong> Meetup Node.js Porto Alegre</strong> - w/ Henrique Schreiner
+Produtor @ <strong>Tech && Beer</strong>
 
-Produtor @ <strong> Tech && Beer</strong> - w/ Nana Raythz
+Mentor / Desenvolvedor @ <strong>Caju</strong>
 
-Escritor @ <strong> Da Visão à Produção</strong> - w/ Daniel Wildt
+Mentor @ <strong>Ritus</strong>
 
 ---
 
-Ex fundador @ **Fight Analytics**.
-
-Ex fundador @ **Santins**.
+Ex fundador @ **Fight Analytics** / Ex fundador @ **Santins**.
 
 Fundador e participante do time vencedor do **Startup Weekend Porto Alegre 2014** com a **ComixLab**, marketplace de quadrinhos independentes.
 
@@ -26,7 +24,7 @@ Fundador e participante do time vencedor do **Startup Weekend Porto Alegre 2014*
 
 ---
 
-Trabalhei também como desenvolvedor nas empresas **Zenvia**, **Lotadata**, **Datum**, **3yz** e **Ez Commerce**.
+Trabalhei também como desenvolvedor nas empresas **ilegra**, **Zenvia**, **Lotadata**, **Datum**, **3yz** e **Ez Commerce**.
 
 ---
 
