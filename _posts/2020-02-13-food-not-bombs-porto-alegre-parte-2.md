@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Comida, Não Bombas - Parte 2 - Pesquisa"
-date:   2020-02-13 12:00:00 -0200
+date: 2020-02-13 09:00:00 -0200
 subtitle: "Food Not Bombs"
 categories: ['Ideias Open Source']
 single-like: true
