@@ -4,15 +4,17 @@ title: Sobre mim
 permalink: /sobre
 ---
 
-Desenvolvedor Frond-End / Agilista @ <strong>APOIA.se</strong>
+Desenvolvedor / Agilista @ <strong>APOIA.se</strong> - <a href="https://apoia.se">https://apoia.se</a>
+
+Escritor @ <strong>Da Visão à Produção</strong> - <a href="https://leanpub.com/dvap">https://leanpub.com/dvap</a>
 
 Coordenador @ <strong>Meetup Node.js Porto Alegre</strong>
 
-Produtor @ <strong>Tech && Beer</strong>
-
-Mentor / Desenvolvedor @ <strong>Caju</strong>
+Mentor / Desenvolvedor @ <strong>Caju</strong> - <a href="https://cajuveg.come">https://cajuveg.come</a>
 
 Mentor @ <strong>Ritus</strong>
+
+Produtor @ <strong>Tech && Beer</strong>
 
 ---
 
