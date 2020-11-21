@@ -1,4 +1,0 @@
----
-tag: Liderança
-permalink: "/liderança"
----

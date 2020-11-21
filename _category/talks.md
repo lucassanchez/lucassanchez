@@ -1,4 +1,0 @@
----
-tag: Talks
-permalink: "/talks"
----
