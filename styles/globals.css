@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap');
+
 html,
 body {
+  font-family: 'Raleway', sans-serif;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +14,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+p {
+  font-weight: 400;
+}
+
+p a {
+  background-color: #FFD550;
+  padding: 2px 8px;
+  border-radius: 6px;
 }
