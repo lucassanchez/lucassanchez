@@ -45,8 +45,7 @@ export default function Home() {
 
       <style jsx>{`
         main {
-          padding: 60px;
-          max-width: 1480px;
+          padding: 55px;
         }
 
         .section {
@@ -55,7 +54,7 @@ export default function Home() {
         }
 
         .avatar {
-          margin-right: 60px;
+          margin-right: 55px;
         }
 
         h1 span {
@@ -63,15 +62,16 @@ export default function Home() {
         }
 
         p {
-          font-size: 32px;
-          line-height: 1.6;
+          font-size: 34px;
+          line-height: 1.8;
           width: 100%;
           word-break: break-word;
+          font-weight: 600; // 610
         }
 
-        @media (max-width: 560px) {
+        @media (max-width: 610px) {
           main {
-            padding: 36px;
+            padding: 34px;
           }
 
           .section {
@@ -79,7 +79,7 @@ export default function Home() {
           }
 
           p {
-            font-size: 28px;
+            font-size: 21px;
           }
         }
       `}</style>
