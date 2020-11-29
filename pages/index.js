@@ -8,7 +8,6 @@ export default function Home() {
     <>
       <Head>
         <title>Lucas Inocente - Comunicação, simplicidade, feedback, coragem e respeito.</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
