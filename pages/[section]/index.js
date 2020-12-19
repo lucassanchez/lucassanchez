@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Header from '../../components/Header'
 import Card from '../../components/Card'
 import getList from '../../helpers/getList'
-import getColors from '../../helpers/getColors'
 
 const Page = (
   {
@@ -10,18 +9,16 @@ const Page = (
     section
   }
 ) => {
-
   return (
     <>
       <Head>
         <title>{section} ~ Lucas Inocente</title>
       </Head>
-      <Header />
+      <Header section={section}/>
       <article>
-        <h1>/{section}</h1>
         <div className="inner-container">
           { data.map(({ link, title }, index ) => {
-            return <Card link={link} title={title} />
+            return <Card link={link} title={title} section={section} />
           })}
         </div>
       </article>

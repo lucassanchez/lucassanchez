@@ -5,6 +5,8 @@ import getPage from '../../helpers/getPage'
 
 const Page = (
   {
+    section,
+    id,
     data: {
       data: {
         title,
@@ -19,7 +21,7 @@ const Page = (
       <Head>
         <title>{title} ~ Lucas Inocente</title>
       </Head>
-      <Header />
+      <Header section={section} id={id} />
       <article>
         <h1>{title}</h1>
         <div className="inner-container">
@@ -31,11 +33,16 @@ const Page = (
   )
 }
 
-export async function getServerSideProps({ resolvedUrl }) {
-  const data = getPage(resolvedUrl)
+export async function getServerSideProps({ query: { section, id },  }) {
+  const path = `${section}/${id}`
+  const data = getPage(path)
 
   return {
-    props: { data }
+    props: { 
+      section,
+      id,
+      data
+    }
   }
 }
 

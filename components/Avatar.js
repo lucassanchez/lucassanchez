@@ -2,8 +2,7 @@ import Image from 'next/image'
 
 const Avatar = ({ 
   width = 80,
-  height = 80,
-  backgroundColor
+  height = 80
 }) => {
   return (
     <>

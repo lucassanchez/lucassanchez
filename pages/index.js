@@ -16,7 +16,6 @@ export default function Home() {
             <Avatar
               width={280}
               height={280}
-              quality={100}
             />
           </div>
           <h1>
@@ -28,17 +27,13 @@ export default function Home() {
         <div className="section">
           <p>
              Aqui tu podes {` `}
-            <Link href="#">falar comigo</Link>,{` `}
-            saber mais {` `}
-            <Link href="#">sobre mim</Link>,{` `}
-            ver {` `}
-            <Link href="#">fotos</Link>{` `}
-            que eu tiro, {` `}
-            <Link href="#">textos</Link>{` `}
-            que eu escrevo sobre {` `}
-            <Categories />
-            e {` `}
-            <Link href="#">todo o resto...</Link>
+            saber {` `}
+            <Link href="/paginas/sobre">sobre mim</Link>,{` `}
+            ler os {` `}
+            <Link href="/blog">textos que eu escrevo</Link>{` `}
+             e saber mais sobre os {` `}
+            <Link href="/paginas/projetos">projetos</Link>{` `}
+            que eu participo.
           </p>
         </div>
       </main>

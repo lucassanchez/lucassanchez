@@ -1,5 +1,8 @@
+import Link from 'next/link'
+
 const Card = (
   {
+    section,
     title,
     link
   }
@@ -7,27 +10,31 @@ const Card = (
   return (
     <>
       <div className="card">
-        <div className="background">
-          <h3>{ title } </h3>
-        </div>
-        <h4>{ link }</h4>
+        <Link href={`/${section}/${link}`}>
+          <a title={ title }>
+            <div className="background">
+              <h3>{ title }</h3>
+            </div>
+            <h4>{ link }</h4>
+          </a>
+        </Link>
       </div>
       <style jsx>{`
         .card {
-          margin: 0px 0px 21px;
+          margin: 21px 0px 0px;
         }
 
         .background {
           display: flex;
           align-items: flex-end;
-          height: 144px;
+          min-height: 144px;
+          padding: 13px;
           background-image: linear-gradient(to bottom right, #ffd550, #ffd550);
           border-radius: 5px;
         }
 
         h3 {
-          padding-left: 13px;
-          margin-bottom: 13px;
+          margin: 0px;
           font-size: 34px;
           font-weight: normal;
         }

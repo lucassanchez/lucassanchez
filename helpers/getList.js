@@ -22,7 +22,7 @@ const getList = (path, folder = 'contents') => {
     }
   })
 
-  return content
+  return content.reverse()
 }
 
 export default getList
