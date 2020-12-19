@@ -45,7 +45,7 @@ p a {
 }
 
 .inner-container {
-  max-width: 610px;
+  max-width: 987px;
 }
 
 @media (max-width: 610px) {

@@ -33,7 +33,6 @@ const Page = (
 
 export async function getServerSideProps({ resolvedUrl }) {
   const data = getPage(resolvedUrl)
-  console.log(data)
 
   return {
     props: { data }
