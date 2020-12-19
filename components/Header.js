@@ -65,9 +65,12 @@ const Header = ({ section, id }) => {
         }
 
         .header {
+          padding: 13px;
           display: flex;
           align-items: center;
           justify-content: space-between;
+          max-width: 987px;
+          margin: 0 auto;
         }
 
         .links.active {

@@ -10,6 +10,7 @@ const getContent = path => {
 
 const getList = (path, folder = 'contents') => {
   const query = `${process.cwd()}/${folder}/${path}`
+
   const cwd = fs.readdirSync(query)
   const content = cwd.map(fileName => {
     const path = `${query}/${fileName}`

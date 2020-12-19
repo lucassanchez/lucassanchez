@@ -11,7 +11,7 @@ const Burguer = ({ action }) => {
 
       <style jsx>{`
         button {
-          padding: 18px 12px;
+          padding: 17px 12px 18px;
           background: white;
           border: 0;
           border-radius: 6px;

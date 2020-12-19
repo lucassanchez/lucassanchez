@@ -10,7 +10,7 @@ Escritor @ <strong>Da Visão à Produção</strong> - <a href="https://leanpub.c
 
 Coordenador @ <strong>Meetup Node.js Porto Alegre</strong>
 
-Mentor / Desenvolvedor @ <strong>Caju</strong> - <a href="https://cajuveg.come">https://cajuveg.come</a>
+Mentor / Desenvolvedor @ <strong>Caju</strong> - <a href="https://cajuveg.com">https://cajuveg.com</a>
 
 Mentor @ <strong>Ritus</strong>
 

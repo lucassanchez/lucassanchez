@@ -10,7 +10,7 @@ const Page = (
     data: {
       data: {
         title,
-        description,
+        subtitle,
       },
       content
     }
@@ -21,19 +21,41 @@ const Page = (
       <Head>
         <title>{title} ~ Lucas Inocente</title>
       </Head>
-      <Header section={section} id={id} />
+      <div className="background">
+        <Header section={section} id={id} />
+        <div className="hero inner-container">
+          <h1>{title}</h1>
+          <h2>{subtitle}</h2>
+        </div>
+      </div>
       <article>
-        <h1>{title}</h1>
         <div className="inner-container">
-          <h2>{description}</h2>
           { ReactHtmlParser(content) }
         </div>
       </article>
+      <style jsx>{`
+        .background {
+          background: #FFD550;
+        }
+        h1, h2 {
+          font-weight: normal;
+        }
+        .hero {
+          padding: 89px 13px 144px;
+        }
+      `}</style>
     </>
   )
 }
 
-export async function getServerSideProps({ query: { section, id },  }) {
+export async function getServerSideProps(
+  {
+    query: {
+      section,
+      id
+    }
+  }
+){
   const path = `${section}/${id}`
   const data = getPage(path)
 

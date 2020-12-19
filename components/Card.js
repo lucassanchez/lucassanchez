@@ -21,7 +21,7 @@ const Card = (
       </div>
       <style jsx>{`
         .card {
-          margin: 21px 0px 0px;
+          margin: 0px 0px 21px;
         }
 
         .background {

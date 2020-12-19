@@ -15,8 +15,8 @@ const Page = (
         <title>{section} ~ Lucas Inocente</title>
       </Head>
       <Header section={section}/>
-      <article>
-        <div className="inner-container">
+      <article className="inner-container">
+        <div>
           { data.map(({ link, title }, index ) => {
             return <Card link={link} title={title} section={section} />
           })}
@@ -26,8 +26,8 @@ const Page = (
   )
 }
 
-export async function getServerSideProps({ query: { section }, resolvedUrl }) {
-  const data = getList(resolvedUrl)
+export async function getServerSideProps({ query: { section } }) {
+  const data = getList(section)
 
   return {
     props: { 

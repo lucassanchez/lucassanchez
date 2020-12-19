@@ -27,7 +27,6 @@ h1, h2 {
 }
 
 p {
-  font-size: 21px;
   font-weight: 400;
   font-family: 'Open-sans', sans-serif;
 }
@@ -46,6 +45,12 @@ p a {
 
 .inner-container {
   max-width: 987px;
+  margin: 0 auto;
+  padding: 13px;
+}
+
+article img {
+  max-width: 100%;
 }
 
 @media (max-width: 610px) {

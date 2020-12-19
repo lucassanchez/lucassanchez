@@ -7,8 +7,6 @@ categories: ['Ideias Open Source']
 single-like: true
 ---
 
-# Comida, Não Bombas - Parte 2 - Pesquisa
-
 Se você caiu aqui sem saber o que é um Comida Não Bombas, leia aqui primeiro:
 
 [Comida, Não Bombas - Parte 1](https://lucasinocente.com/ideias%20open%20source/2019/12/09/food-not-bombs-porto-alegre.html)

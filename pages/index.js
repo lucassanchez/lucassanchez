@@ -41,6 +41,8 @@ export default function Home() {
       <style jsx>{`
         main {
           padding: 55px;
+          max-width: 987px;
+          margin: 0 auto;
         }
 
         .section {

@@ -7,8 +7,6 @@ categories: ['Ideias Open Source']
 single-like: true
 ---
 
-# Comida, Não Bombas - Ideia
-
 Esse final de semana fui presenteado com um capítulo do livro chamado Receitas Para o Desastre. Entre diversas técnicas de descontrole social ele ensina o ato revolucionário e terrorista que pode ruir com o sistema capitalista, que ajuda diretamente em acabar com a fome no mundo mas que é tão violento e destrói a sociedade e os bons costumes a ponto de que algumas pessoas já foram presas executando-o.
 
 Dar comida de graça pras pessoas na rua. Simples assim.
