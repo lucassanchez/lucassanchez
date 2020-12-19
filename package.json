@@ -2,6 +2,7 @@
   "name": "lucasinocente.github.io",
   "version": "0.1.0",
   "private": true,
+  "author": "Lucas Inocente",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
