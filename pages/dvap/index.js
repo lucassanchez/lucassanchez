@@ -53,7 +53,7 @@ const Page = (
 
       <style jsx>{`
         .background {
-          background: #E9EB9E;
+          background: #ffd550;
         }
         h1 {
           margin-top: 0;

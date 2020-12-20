@@ -49,6 +49,10 @@ p a {
   padding: 13px;
 }
 
+.hero a {
+  background: #fff;
+}
+
 article img {
   max-width: 100%;
 }
