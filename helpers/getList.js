@@ -8,7 +8,7 @@ const getContent = path => {
   return matter(content)
 }
 
-const getList = (path, folder = 'contents') => {
+const getList = (path, folder = 'contents', orderNatural) => {
   const query = `${process.cwd()}/${folder}/${path}`
 
   const cwd = fs.readdirSync(query)
@@ -23,7 +23,7 @@ const getList = (path, folder = 'contents') => {
     }
   })
 
-  return content.reverse()
+  return orderNatural ? content : content.reverse()
 }
 
 export default getList

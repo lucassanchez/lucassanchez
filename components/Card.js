@@ -4,13 +4,16 @@ const Card = (
   {
     section,
     title,
-    link
+    link,
+    href
   }
 ) => {
+  const goToLink = href ? href : `/${section}/${link}`
+
   return (
     <>
       <div className="card">
-        <Link href={`/${section}/${link}`}>
+        <Link href={goToLink}>
           <a title={ title }>
             <div className="background">
               <h3>{ title }</h3>

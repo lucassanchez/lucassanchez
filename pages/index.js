@@ -14,27 +14,24 @@ export default function Home() {
         <div className="section">
           <div className="avatar">
             <Avatar
-              width={280}
-              height={280}
+              width={233}
+              height={233}
             />
           </div>
           <h1>
-            <span>Oi 👋 </span>
+            <span>Oi, 👋 </span>
             <span>eu sou o </span>
             <span>Lucas Inocente</span>
           </h1>
         </div>
         <div className="section">
           <p>
-             Aqui tu podes {` `}
-            saber {` `}
+            Aqui tu podes saber {` `}
             <Link href="/paginas/sobre">sobre mim</Link>,{` `}
-            ler os {` `}
-            <Link href="/blog">textos que eu escrevo</Link>{` `}
-             e saber mais sobre os {` `}
-            <Link href="/paginas/projetos">projetos</Link>{` `}
-            que eu participo.
-          </p>
+             ver as lives e verbetes que produzi para o livro{` `}
+            <Link href="/dvap">Da Visão à Produção</Link> e
+            ler os textos que escrevo para o{` `}
+            <Link href="/blog">blog</Link>.</p>
         </div>
       </main>
 
@@ -52,6 +49,8 @@ export default function Home() {
 
         .avatar {
           margin-right: 55px;
+          display: flex;
+          justify-content: center;
         }
 
         h1 span {
@@ -59,7 +58,7 @@ export default function Home() {
         }
 
         p {
-          font-size: 34px;
+          font-size: 21px;
           line-height: 1.8;
           width: 100%;
           word-break: break-word;
@@ -67,16 +66,18 @@ export default function Home() {
         }
 
         @media (max-width: 610px) {
+          .avatar {
+            margin-right: 0px;
+            text-align: center;
+          }
+          h1 span {
+            display: inline;
+          }
           main {
             padding: 34px;
           }
-
           .section {
             display: block;
-          }
-
-          p {
-            font-size: 21px;
           }
         }
       `}</style>

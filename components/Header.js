@@ -39,8 +39,8 @@ const Header = ({ section, id }) => {
               </Link>
             </li>
             <li>
-              <Link href="/paginas/projetos">
-                Projetos
+              <Link href="/dvap">
+                Da Visão à Produção
               </Link>
             </li>
             <li>
