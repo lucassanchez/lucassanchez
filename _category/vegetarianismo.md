@@ -1,4 +1,0 @@
----
-tag: Vegetarianismo
-permalink: "/vegetarianismo"
----

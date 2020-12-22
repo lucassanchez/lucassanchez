@@ -1,4 +1,0 @@
----
-tag: Mentoria
-permalink: "/mentoria"
----

@@ -1,4 +1,0 @@
----
-tag: Hacktoberfest
-permalink: "/hacktoberfest"
----

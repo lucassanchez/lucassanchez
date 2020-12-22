@@ -1,4 +1,0 @@
----
-tag: Bicicleta
-permalink: "/bicicleta"
----
