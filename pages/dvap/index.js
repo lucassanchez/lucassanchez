@@ -69,6 +69,25 @@ const Page = (
   )
 }
 
+export async function getStaticPaths() {
+  const section = 'dvap'
+  const list = getList(section)
+
+  const paths = list.map(({ link }) => {
+    return {
+      params: {
+        section,
+        id: link
+      }
+    }
+  })
+
+  return {
+    paths,
+    fallback: false,
+  };
+}
+
 export async function getStaticProps() {
   const section = 'dvap'
   const data = getList(section, 'contents', true)
