@@ -69,7 +69,7 @@ const Page = (
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const section = 'dvap'
   const data = getList(section, 'contents', true)
   const lives = [
