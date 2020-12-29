@@ -81,8 +81,6 @@ export async function getStaticProps(
   }
 ){
   const path = `${section}/${id}`
-
-  console.log(path)
   const data = getPage(path)
 
   return {

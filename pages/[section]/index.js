@@ -30,9 +30,13 @@ const Page = (
 
 export async function getStaticPaths() {
   const paths = getAllContent()
+  const filter = paths.filter(({ params: { section } }) => {
+    return section !== 'dvap'
+  })
+
 
   return {
-    paths,
+    paths: filter,
     fallback: false,
   };
 }
