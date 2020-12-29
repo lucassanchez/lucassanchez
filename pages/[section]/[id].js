@@ -2,6 +2,8 @@ import Head from 'next/head'
 import ReactHtmlParser from 'react-html-parser'
 import Header from '../../components/Header'
 import getPage from '../../helpers/getPage'
+import getList from '../../helpers/getList'
+import getAllContent from '../../helpers/getAllContent'
 
 const Page = (
   {
@@ -48,15 +50,39 @@ const Page = (
   )
 }
 
-export async function getServerSideProps(
+export async function getStaticPaths() {
+  const contents = getAllContent()
+  const paths = contents.map(({ params: { section } }) => {
+    const list = getList(section)
+
+    return list.map(({ link }) => {
+      return {
+        params: {
+          section,
+          id: link
+        }
+      }
+    })
+  })
+
+  return {
+    paths: paths.flat(),
+    fallback: false,
+  };
+}
+
+
+export async function getStaticProps(
   {
-    query: {
+    params: {
       section,
       id
     }
   }
 ){
   const path = `${section}/${id}`
+
+  console.log(path)
   const data = getPage(path)
 
   return {
