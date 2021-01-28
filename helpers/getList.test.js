@@ -9,13 +9,13 @@ describe('Retorna conteudo da pasta .seeds', () => {
 
     expect(content).toMatchObject([
       {
+        link: '2020.04.20-second-post',
+        title: 'Second Post!',
+      },
+      {
         link: '2020.02.20-hello-world',
         title: 'Hello World!',
       },
-      {
-        link: '2020.04.20-second-post',
-        title: 'Second Post!',
-      }
     ])
   })
 })

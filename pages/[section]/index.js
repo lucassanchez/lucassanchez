@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../../components/Header'
 import Card from '../../components/Card'
+import getAllContent from '../../helpers/getAllContent'
 import getList from '../../helpers/getList'
 
 const Page = (
@@ -26,7 +27,22 @@ const Page = (
   )
 }
 
-export async function getServerSideProps({ query: { section } }) {
+
+export async function getStaticPaths() {
+  const paths = getAllContent()
+  const filter = paths.filter(({ params: { section } }) => {
+    return section !== 'dvap'
+  })
+
+
+  return {
+    paths: filter,
+    fallback: false,
+  };
+}
+
+
+export async function getStaticProps({ params: { section } }) {
   const data = getList(section)
 
   return {

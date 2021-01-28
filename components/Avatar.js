@@ -8,7 +8,7 @@ const Avatar = ({
     <>
       <div className="avatar">
         <Image
-          src="/lucas-inocente.jpg"
+          src="/lucas-inocente-2021.png"
           alt="Lucas Inocente"
           width={width}
           height={height}
